@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>User presonal information</legend>
+        <form action="./table.html" autocomplete="off">
+            Enter your full name<br>
+            <input type="text" name="name" id="name" required autofocus><br>
+            Enter your email<br>
+            <input type="email" name="email"  id="email" required><br>
+            Enter your password<br>
+            <input type="password"  name="password"  id="password" pattern="[a-zA-z0-9]+"  required><br>
+            Confirm your password<br>
+            <input type="password"  name="password" id="password" pattern="[a-zA-z0-9]+" required><br>
+            Enter your gender<br>
+            <input type="radio"  name="gender" value="female" id="female"><label for="female">female</label>
+            <input type="radio"  name="gender" value="male" id="male"><label for="male">male</label>
+            <input type="radio"  name="Other" value="Other" id="Other"><label for="Other">Other</label><br>
+            Enter your Date of Birth<br>
+            <input type="date" name="date" value="date" id="date" required><br>
+            Enter your Address:<br>
+            <input type="text" name="address"  id="address" required><br><br>
+            <input type="submit" value="submit">
+        </form>
+    </fieldset>
+</body>
+</html>
